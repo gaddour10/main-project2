@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'introheadr-base';
+    src: url('fonts/font1/introheadr-base-webfont.woff2') format('woff2'),
+         url('fonts/font1/introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('fonts/font2/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('fonts/font2/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'introscriptr-h2base';
+    src: url('fonts/font3/introscriptr-h2base-webfont.woff2') format('woff2'),
+         url('fonts/font3/fointroscriptr-h2base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: 'vremenagrotesk';
+    src: url('fonts/font6/vremenagrotesk-webfont.woff2') format('woff2'),
+         url('fonts/font6/vremenagrotesk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    padding-left:25px;
+    padding-top: 30px;
+    width: 1460px;
+    
+}
+#topsection
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+    
+  list-style-type: none;
+}
+#ul1
+{
+    font-family: 'introheadr-base';
+    width: 400px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+#ul1 li:hover
+{
+    color: blue;
+}
+
+#middlesection
+{
+    font-family: 'vremenagrotesk';
+    font-size: 25px;
+    align-items: flex-end;
+
+
+}
+#searchbox
+{
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+
+
+}
+#searchtxt
+{
+    height: 60px;
+    border: none;
+    border: solid whitesmoke 3px;
+
+   
+    font-size: 25px;
+}
+#searchbtn
+{
+    border-style: none;
+    background-color: #0362fc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 15px;
+    
+    float: right;
+    width: 160px;
+    height: 68px;
+
+
+
+}
+
+#map
+{
+    display: flex;
+   width: 70px;
+   height: 67px;
+    background-color: whitesmoke;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#menu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding-left: 4px;
+}
+#filters
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:20px ;
+
+    height: 40px;
+    border: solid lightgrey 2px;
+    border-radius: 25px;
+}
+
+#logos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2ddfc;
+    color: blue;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    margin-right: 15px;
+}
+#info
+{
+    display: flex;
+align-items: center;
+margin-left: 10px;
+}
+#info p
+{
+    padding-left: 15PX;
+}
+#infologo
+{
+    float: left;
+    display: flex;
+    color: blue;
+    border: solid lightgrey 2px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+#articlebloc1,#articlebloc2,#articlebloc3,#articlebloc4,#articlebloc5,#articlebloc6
+{
+
+
+    
+    background-color: white;
+
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto ;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: lightgrey 5px 5px 20px 0px;
+    margin-bottom: 30px;
+
+
+}
+#sectionimg
+{
+    width: 250px;
+    height:150px;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+article
+{
+    width: 1000px;
+    justify-content: space-between;
+    
+    background-color: whitesmoke;
+     border-radius: 20px;
+
+
+    
+}
+article h1
+{
+    color: black;
+    padding-top: 15px;
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+#articleblocs
+{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+#section1
+{
+    font-family: "vremenagrotesk";
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+aside
+{
+    width: 400px;
+
+    
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+
+
+}
+
+
+
+#asideblock1,#asideblock2,#asideblock3
+{
+    
+    width: 370px;
+    display: flex;
+   
+    
+
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 70px;
+
+    
+        box-shadow: lightgrey 5px 5px 20px 0px;
+
+
+
+
+    font-size: 15px;
+}
+#asideimg
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    width: 150px;
+    margin: 8px 8px 8px 8px;
+    height: 150px;
+
+}
+
+
+
+#star
+{
+   
+    color: blue;
+}
+
+#star1
+{
+   color: lightgrey;
+}
+#section2
+{
+    font-family: "vremenagrotesk";
+    width: 1460px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+h1
+{
+    font-family: "vremenagrotesk";
+    font-size: 30px;
+}
+#sectionblockbig
+{
+    background-color: white;
+        box-shadow: lightgrey 5px 5px 20px 0px;
+        width: 380px;
+        border-radius: 20px;
+
+}
+#sectionblocksmall
+{
+    background-color: white;
+            box-shadow: lightgrey 5px 5px 20px 0px;
+            width: 300px;
+                    border-radius: 20px;
+
+
+}
+#bigimg
+{
+    width: 380px;
+    height: 430px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#smallimg
+{
+    width: 300px;
+    height: 150px;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#section2p1
+{
+    width: 730px;
+    display: flex;
+    
+    align-items: flex-start;
+    justify-content: space-around;
+
+
+}
+#section2p2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+
+}
+#img1
+{
+      width: 300px;
+      height: 210px;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+#img2
+{
+        width: 300px;
+    height: 100px;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+footer
+{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-family: "introheadr-base";
+    font-size: 20px;
+}
+#footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+}
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+    #topsection
+    {
+        display: flex;
+        flex-direction: column; 
+        
+        justify-content: center;
+        align-items: center;
+           }
+    #topsection img
+    {
+        width: 300px;
+        margin-left: 170px;
+    }
+    #menu
+    {
+        display: flex;
+        width: 600px;
+        height: 100px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #section1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #articleblocs
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    article
+    {
+        width: auto;
+    }
+    article h1
+    {
+        display: flex;
+        color: darkred;
+        justify-content: center;
+        padding-left: 0px;
+
+    }
+    aside
+    {
+        margin-top: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section2
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section2p1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+    #sectionblockbig
+    {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+}
